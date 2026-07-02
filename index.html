@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>To Do List</title>
+
+    <!-- <link rel="stylesheet" href="todo.css" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body class="bg-gray-200">
+    <div id="main-frame">
+      <h3 id="heading" class="text-3xl">What is Today's Aim?</h3>
+      <div>
+        <input id="Task" type="text" placeholder="Enter Task" />
+        <button id="btn">Add</button>
+      </div>
+    </div>
+
+    <ol id="list" class="flex flex-col m-5 gap-1"></ol>
+  </body>
+  <script src="todo.js"></script>
+</html>
