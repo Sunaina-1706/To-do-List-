@@ -7,7 +7,7 @@ input.classList =
 let list = document.getElementById("list");
 let btn = document.getElementById("btn");
 btn.classList =
-  "bg-orange-500 rounded-lg w-25 h-13 items-center shadow-lg outline outline-black/10 ";
+  "bg-teal-500 rounded-lg w-25 h-13 items-center shadow-lg outline outline-black/10 ";
 // "rounded px-4 py-2 border-2 bg-teal-200 border-teal-700";
 let tracker = 1;
 let data = JSON.parse(localStorage.getItem("myTask")) || [];
@@ -54,10 +54,10 @@ function renderTask(task, id) {
   // console.log(JSON.stringify(li.classList.value));
   let delBtn = document.createElement("button");
   delBtn.classList =
-    "bg-orange-600 pb-2 rounded-lg w-10 items-center shadow-lg outline outline-black/10";
+    "bg-teal-600 pb-2 rounded-lg w-10 items-center shadow-lg outline outline-black/10";
   let editBtn = document.createElement("button");
   editBtn.classList =
-    "bg-orange-400 p-2 rounded-lg w-20 items-center shadow-lg outline outline-black/10";
+    "bg-teal-400 p-2 rounded-lg w-20 items-center shadow-lg outline outline-black/10";
   title.classList = "pl-4 h-10 text-2xl";
   title.innerText = task;
   delBtn.innerText = "x";
